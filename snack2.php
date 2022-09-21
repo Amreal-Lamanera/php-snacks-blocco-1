@@ -15,6 +15,7 @@ $nameRes = ($nameLen > 3) ? true : false;
 $age = $_GET['age'];
 $ageRes = is_numeric($age);
 
+// try: /?name=john&email=johndoe@gmail.com&age=30
 
 ?>
 
