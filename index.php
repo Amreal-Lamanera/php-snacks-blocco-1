@@ -21,3 +21,7 @@
 <div>
     <a href="./snack6.php">Snack 6</a>
 </div>
+
+<div>
+    <a href="./snack7.php">Snack 7</a>
+</div>
