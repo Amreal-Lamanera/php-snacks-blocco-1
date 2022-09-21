@@ -13,7 +13,7 @@ $alumns = [
     [
         'name' => 'Mauro',
         'last_name' => 'Formisano',
-        'votes' => [2, 2, 3, 4, 4]
+        'votes' => [10, 10, 10, 10, 10]
     ],
     [
         'name' => 'Tiziano',
