@@ -17,3 +17,7 @@
 <div>
     <a href="./snack5.php">Snack 5</a>
 </div>
+
+<div>
+    <a href="./snack6.php">Snack 6</a>
+</div>

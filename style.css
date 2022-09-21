@@ -1,0 +1,14 @@
+.teachers,
+.pm {
+    padding: 0.5rem 1rem;
+    color: #FFF;
+    display: inline-block;
+}
+
+.teachers {
+    background-color: grey;
+}
+
+.pm {
+    background-color: green;
+}
