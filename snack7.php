@@ -1,9 +1,9 @@
 <?php
 $alumns = [
     [
-        'name' => 'Goku',
-        'last_name' => 'Kakaroth',
-        'votes' => [2, 4, 3, 5, 5]
+        'name' => 'Antonio',
+        'last_name' => 'Barbarossa',
+        'votes' => [2, 7, 3, 4, 5, 3, 5]
     ],
     [
         'name' => 'Giorgio',
@@ -36,7 +36,7 @@ foreach ($alumns as $value) {
         <p>
             Media Voti: <em>
                 <?=
-                array_sum($value['votes']) / count($value['votes']);
+                round(array_sum($value['votes']) / count($value['votes']), 2);
                 ?>
             </em>
         </p>
