@@ -37,25 +37,16 @@
         ]
     ];
 
-    foreach ($db['teachers'] as $value) {
+    foreach ($db as $key => $category) {
+        foreach ($category as $value) {
     ?>
-        <div class="teachers">
-            <?=
-            "{$value['name']} {$value['lastname']}";
-            ?>
-        </div>
+            <div class="<?= $key ?>">
+                <?=
+                "{$value['name']} {$value['lastname']}";
+                ?>
+            </div>
     <?php
-    }
-    ?>
-    <?php
-    foreach ($db['pm'] as $value) {
-    ?>
-        <div class="pm">
-            <?=
-            "{$value['name']} {$value['lastname']}";
-            ?>
-        </div>
-    <?php
+        }
     }
     ?>
 
