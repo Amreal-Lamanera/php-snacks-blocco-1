@@ -18,7 +18,7 @@ $alumns = [
     [
         'name' => 'Tiziano',
         'last_name' => 'Nicolai',
-        'votes' => [10, 6, 7, 9, 8]
+        'votes' => [10, 6, 7, 9, 8, 9, 9]
     ],
 ];
 ?>
